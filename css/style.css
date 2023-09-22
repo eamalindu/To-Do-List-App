@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 69, 0, 0.2) !important;
+}
+
+.custom-login-container {
+    width: 30%;
+}
+
+.custom-login-container h3 {
+    color: white;
+}
+
+.custom-login-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.custom-login-container a:hover {
+    color: orangered;
+}
+
+.custom-alert {
+    z-index: 100 !important;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+}
+
+.btn-add {
+    background-color: orangered !important;
+    border: 1px solid orangered;
+}
+
+.btn-add:hover {
+    border: 1px solid orangered;
+}
+
+.form-control {
+    box-shadow: none !important;
+}
+
+.form-select {
+    box-shadow: none !important;
+    font-family: 'Poppins', sans-serif !Important;
+}
+
+#textDes {
+    font-size: small !important;
+}
+
+#textTask {
+    font-weight: 600;
+}
+
+.alert-danger {
+    --bs-alert-border-color: transparent;
+}
+
+@media (max-width: 870px) {
+    .custom-login-container {
+        width: 65% !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .custom-login-container {
+        width: 95% !important;
+    }
+
+    .container-select {
+        width: 100%!important;
+        margin-bottom: 1em;
+    }
+    .custom-span{
+        display: block;
+        margin-right: 0!important;
+        margin-bottom: 0.25em;
+    }
+}
